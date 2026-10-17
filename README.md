@@ -13,7 +13,7 @@ Tecnologie
 - Maven
 - React, TypeScript e Vite
 
-## Funzionalità
+Funzionalità
 
 - Registrazione degli utenti
 - Login e autenticazione
@@ -22,14 +22,14 @@ Tecnologie
 - Gestione delle sessioni tramite cookie
 - Test unitari e di integrazione
 
-## Requisiti
+Requisiti
 
 - JDK 21
 - Maven oppure Maven Wrapper
 - PostgreSQL
 - Node.js e npm per il frontend
 
-## Avvio del backend
+Avvio del backend
 
 Clona il repository:
 
@@ -52,13 +52,13 @@ Avvia l'applicazione:
 
 La porta predefinita di Spring Boot è `8080`, salvo diversa configurazione.
 
-## Configurazione del database
+Configurazione del database
 
 Configura la connessione PostgreSQL tramite le proprietà dell'applicazione o variabili d'ambiente.
 
 Non inserire password, token o credenziali reali nel repository.
 
-## API di autenticazione
+API di autenticazione
 
 | Metodo | Endpoint | Descrizione |
 |---|---|---|
@@ -69,7 +69,7 @@ Non inserire password, token o credenziali reali nel repository.
 
 Le richieste di registrazione e login utilizzano JSON. Gli endpoint protetti richiedono una sessione autenticata.
 
-## Frontend
+Frontend
 
 Il frontend si trova nella cartella `frontend/`.
 
@@ -85,19 +85,14 @@ Per avviare il server di sviluppo:
 ```bash
 npm run dev
 ```
-
-## Test
+Test
 
 Per eseguire tutti i test del backend:
 
 ```bash
 ./mvnw clean test
 ```
-
-## Deployment
-
+Deployment
 Il backend può essere distribuito su una piattaforma compatibile con Java e Spring Boot, collegando il repository GitHub e configurando le variabili d'ambiente e il database PostgreSQL.
-
-## Licenza
-
+Licenza
 Nessuna licenza specificata al momento.
