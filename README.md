@@ -1,9 +1,9 @@
 
-# Session Backend
+Session Backend
 
 Backend REST per la gestione degli utenti e delle sessioni, sviluppato con Java e Spring Boot, con frontend React e database PostgreSQL.
 
-## Tecnologie
+Tecnologie
 
 - Java 21
 - Spring Boot
